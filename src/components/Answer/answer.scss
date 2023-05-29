@@ -1,0 +1,39 @@
+.answer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 210px;
+  background: greenyellow;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+
+  button {
+    background: red;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  svg{
+    transform: rotate(90deg);
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  &--modal{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: #2a7159;
+  }
+}
