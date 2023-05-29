@@ -1,5 +1,19 @@
-.send {
+.sign {
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
+    h1{
+        font-size: 30px;
+        font-family: "Monospaced", sans-serif;
+        span{
+            color: greenyellow;
+        }
+    }
+    label{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
 }
